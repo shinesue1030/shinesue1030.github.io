@@ -1,0 +1,39 @@
+.info_background{
+    /* div透明度 */
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    text-align:center;
+}
+
+table{
+    margin: auto;
+}
+
+h1{
+    padding: 2%;
+}
+
+img{
+    padding: auto;
+    width:300px;
+    /* 圖片圓角 */
+    border-radius: 10px;
+    /* 照片亮度調整 */
+    -webkit-filter: brightness(150%);
+}
+
+/* 滑鼠指標移到"粉紅色"會有 hover 所觸發的特效出現 */
+#pink:hover{
+    /* 背景漸層linear-gradient */
+    background-image: linear-gradient(to bottom right,rgb(226, 234, 156) , pink);
+}
+
+/* 超連結顏色改變 */
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: rgb(255, 0, 208);
+}

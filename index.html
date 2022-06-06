@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <title>About me</title>
+    <link rel="stylesheet" href="mystyle.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="onepiece.ico">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="這是一個關於我的網站">
+    <meta name="author" content="蘇湘婷_109403009">
+
+</head>
+
+
+<body background="background.jpg">
+    
+    <!-- JS語法1 -->
+    <script>
+        alert('成為我的船員巴！')
+    </script>
+
+    <!--  div透明度  -->
+    <div class="info_background">
+        <h1 align="center">多尼多尼·蘇</h3>
+
+            <table border="2">
+                <tr>
+                    <!-- 圖片圓角 -->
+                    <!-- 照片亮度調整 -->
+                    <td  colspan="2"><img src="siangting.jpg" alt="這是我"></td>
+                </tr>
+                <tr>
+                    <td>英文名稱</td>
+                    <td> <i>Tony Tony Sue</i> </td>
+                </tr>
+                <tr>
+                    <td>所屬組職</td>
+                    <td> <b>草帽海賊團</b> </td>
+                </tr>
+                <tr>
+                    <td>代表色</td>
+                    <!-- 滑鼠指標移到"粉紅色"會有 hover 所觸發的特效出現 -->
+                    <!-- 背景漸層linear-gradient -->
+                    <td id="pink">粉紅色</td>
+                </tr>
+                <tr>
+                    <td>愛吃食物</td>
+                    <td>
+                        <ol>
+                            <li>棉花糖</li>
+                            <li>巧克力</li>
+                            <li>所有甜食</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="about">出身地</td>
+                    <td class="about">櫻花王國<br>(又稱磁鼓島)</td>
+                </tr>
+                <tr>
+                    <td class="about">年齡</td>
+                    <td class="about"><p id="age"></p></td>
+                </tr>
+                <tr>
+                    <!-- 超連結顏色改變 -->
+                    <td  colspan="2"><a href="https://onepiece.fandom.com/wiki/Tony_Tony_Chopper" target="_blank">更多關於我</a></td>
+                </tr>
+            </table>        
+    </div>
+
+    <!-- JS語法2 -->
+    <script>
+        document.getElementById("age").innerHTML=3+17;
+    </script>
+
+</body>
