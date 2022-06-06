@@ -1,0 +1,1 @@
+# shinesue1030.github.io
